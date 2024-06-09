@@ -19,8 +19,10 @@ The current project structure is:
 │   │   ├── **widget**/
 │   ├── content/
 │   │   │   ├── docs/
-│   │   │       ├── guides/
-│   │   │           ├── **widget**.md
+│   │   │       ├── widgets/
+│   │   │       │   ├── **widget**.md
+                ├── animations/
+│   │   │           ├── **animaton**.md
 │   │   └── config.ts
 │   └── env.d.ts
 ├── astro.config.mjs

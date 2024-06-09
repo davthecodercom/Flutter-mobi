@@ -12,14 +12,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Widgets',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Scaffold', link: '/guides/scaffold/' },
-					],
+					autogenerate: { directory: 'widgets' },
 				},
 				{
 					label: 'Animations',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'animations' },
 				},
 			],
 		}),
